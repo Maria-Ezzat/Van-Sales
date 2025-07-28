@@ -642,7 +642,8 @@
       "notDone": "Not Done",
       "dispatchNumber": "Dispatch Number",
       "pastOrTodayOnly": "Please select Past Date or Today Only",
-      "failedReason": "Failed Reason"
+      "failedReason": "Failed Reason",
+      "visitDay":"Visit Day"
     },
     "Invoice": {
       "invoice": "Invoice",

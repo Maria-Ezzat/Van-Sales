@@ -632,7 +632,9 @@
       "notDone":"لم تتم",
       "dispatchNumber":"رقم الرحلة",
       "pastOrTodayOnly":"الرجاء اختيار تاريخ اليوم أو الماضي فقط",
-      "failedReason":"سبب الفشل"
+      "failedReason":"سبب الفشل",
+      "visitDay":"يوم الزيارة"
+
     } ,
      "Invoice":{
       "invoice":"فاتورة",

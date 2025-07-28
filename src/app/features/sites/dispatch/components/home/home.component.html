@@ -75,6 +75,8 @@
                     <tr>
                       <th >{{"sites.dispatch.status"|translate}}</th>
                       <th >{{"sites.dispatch.visitDate"|translate}}</th>
+                      <th >{{"sites.dispatch.visitDay"|translate}}</th>
+
                       <th >{{"sites.dispatch.client"|translate}}</th>
                     </tr>
                   </thead>
@@ -89,7 +91,9 @@
                           {{ getStatusName(row.dispatchStatus) }}
                         </span>
                       </td>
-                      <td>{{ row.visitDate | date: 'shortDate' }}</td>
+                      <td>{{ row.visitDate | date: 'dd/MM/yyyy' }}</td>
+                      <td>{{ row.visitDate | date: 'EEEE' }}</td>
+
                       <td>{{ row.clientName }}</td>
                     </tr>
                   </tbody>
@@ -230,6 +234,7 @@
                     <tr>
                       <!-- <th>حالة خط السير</th> -->
                       <th>{{"sites.dispatch.startDate"|translate}}</th>
+                      <th>{{"sites.dispatch.visitDay"|translate}}</th>
                       <th>{{"sites.dispatch.client"|translate}}</th>
                     </tr>
                   </thead>
@@ -241,6 +246,8 @@
                 </span>
               </td> -->
                       <td>{{ row.startDate | date:'dd/MM/yyyy' }}</td>
+                      <td>{{ row.startDate | date:'EEEE' }}</td>
+
                       <td>{{ row.clientName }}</td>
                     </tr>
                   </tbody>
